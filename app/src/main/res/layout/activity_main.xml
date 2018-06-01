@@ -34,7 +34,7 @@
                 android:text="GET=>" />
 
             <EditText
-                android:id="@+id/btn_number"
+                android:id="@+id/et_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="number" />
