@@ -15,11 +15,15 @@
         android:text="20 + 20 + 20 = 20"
         android:textSize="32sp" />
 
-    <EditText
-        android:id="@+id/et_answer"
+    <TextView
+        android:id="@+id/tv_answer"
         android:layout_width="48dp"
         android:layout_height="wrap_content"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="24sp"
+        android:textColor="#ff9f44"/>
 
     <ImageView
         android:id="@+id/iv_result"
